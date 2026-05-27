@@ -39,11 +39,13 @@
             button1.TabIndex = 0;
             button1.Text = "BIENVENIDO";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ButtonHighlight;
             ClientSize = new Size(800, 450);
             Controls.Add(button1);
             Name = "Form1";
